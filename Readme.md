@@ -17,7 +17,7 @@ npm install
 npm run serve
 ```
 
-# Open browser and visit ```http://localhost:8080/```
+- Open browser and visit ```http://localhost:8080/```
 
 
 ## Next setup the Backend RestAPI
