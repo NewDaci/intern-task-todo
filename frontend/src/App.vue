@@ -124,9 +124,6 @@ export default {
     showAlert(message, alertClass) {
       this.alertMessage = message;
       this.alertClass = alertClass;
-      setTimeout(() => {
-        this.alertMessage = "";
-      }, 1500);
     }
   },
 
