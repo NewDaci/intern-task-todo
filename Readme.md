@@ -1,6 +1,6 @@
-## How to run application
+# How to run application
 
-# First setup the frontend
+## First setup the frontend
 
 ## Project setup
 
@@ -17,16 +17,16 @@ npm install
 npm run serve
 ```
 
-## Open browser and visit ```http://localhost:8080/```
+# Open browser and visit ```http://localhost:8080/```
 
 
-# Next setup the Backend RestAPI
+## Next setup the Backend RestAPI
 
 ``` 
 cd ../backend
 ```
 
-# Create a Virtual Environment
+## Create a Virtual Environment
 
 - Create Virtual Environment.
 ``` python3 -m venv .env ```
