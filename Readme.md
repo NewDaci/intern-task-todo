@@ -66,16 +66,16 @@ The following endpoints are available:
 
 ## Database
 
-- The application uses SQLite for data storage.
+- The application uses `SQLite` for data storage.
 
-## Features Implemented
+# Features Implemented
 
-- **Backend (Flask)**:
+## **Backend (Flask)**:
 - RESTful API endpoints for CRUD operations on tasks.
-- Implement user authentication using JWT.
+- Implement user authentication using `JWT`.
 - Added input validations.
 
-- **Frontend (Vue.js)**:
+## **Frontend (Vue.js)**:
 - Dashboard to display tasks.
 - Implemented task creation/editing forms.
 - Added authentication UI pages (login/register).
@@ -83,5 +83,5 @@ The following endpoints are available:
 
 ## Bonus Points
 - Defined Docker configuration with one `docker-compose.yml` file in the root directory and two `Dockerfile` for each backend and frontend.
-- Implemented brief documentation of API endpoints using the OpenAPI specification.
+- Implemented brief documentation of API endpoints using the OpenAPI specification in the `openapi.yaml` file.
 
