@@ -61,5 +61,5 @@ if __name__ == '__main__':
     setup_task_routes() 
     setup_user_routes() 
     # app.run(debug=True)
-    socketio.run(app, debug=True) 
+    socketio.run(app, debug=True, allow_unsafe_werkzeug=True)
     

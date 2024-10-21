@@ -17,4 +17,4 @@ COPY . .
 EXPOSE 5000
 
 # Command to run the Flask app using Flask-SocketIO
-CMD ["flask", "socketio", "run", "--host=0.0.0.0"]
+CMD ["gunicorn", "-k", "eventlet", "-w", "1", "--bind", "0.0.0.0:5000", "app:app"]
