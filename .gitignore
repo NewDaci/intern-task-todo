@@ -2,6 +2,7 @@
 node_modules
 /dist
 
+intern-task-todo-main.zip
 
 # local env files
 .env
