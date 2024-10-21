@@ -12,7 +12,9 @@ services:
       - FLASK_ENV=development
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
     container_name: vue_frontend
     ports:
       - "8080:80"
