@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  backend:
+    build: ./backend
+    container_name: flask_backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - FLASK_ENV=development
+
+  frontend:
+    build: ./frontend
+    container_name: vue_frontend
+    ports:
+      - "8080:80"
+    volumes:
+      - ./frontend:/app
